@@ -41,3 +41,17 @@ Collection of system design concepts, best practices, and interview prep materia
 - Design a Real-time Analytics System
 
 - Design a Web Crawler
+
+## 3. Optional :
+
+- Design a Multiplayer Game System
+
+- Design a Machine Learning Model Serving System
+
+- Design a Collaborative Document Editor (like Google Docs)
+
+- Design a WebSocket-based Live Streaming System
+
+- Design an IoT System (smart devices communication)
+
+
