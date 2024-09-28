@@ -54,4 +54,5 @@ Collection of system design concepts, best practices, and interview prep materia
 
 - Design an IoT System (smart devices communication)
 
+- Design a Payment Gateway System
 
