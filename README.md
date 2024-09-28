@@ -20,7 +20,7 @@ Collection of system design concepts, best practices, and interview prep materia
 
 - Design a Notification System (push notifications, email)
 
-- Design a Rate Limiter
+- Design a Rate Limiter System
 
 - Design a Content Delivery Network (CDN)
 
