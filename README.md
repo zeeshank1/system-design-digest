@@ -2,7 +2,7 @@
 Collection of system design concepts, best practices, and interview prep material
 
 ## 1. Must Have :
-- Design a URL Shortener (like bit.ly example)
+- Design a URL Shortener (like bit.ly)
 
 - Design a Scalable Chat System (like WhatsApp or Slack)
 
