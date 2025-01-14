@@ -24,4 +24,18 @@
    - **Compression**: Reduce data size (e.g., gzip).  
    - **Database Optimization**: Denormalization, partitioning.  
 
+### 6. **Reliability**  
+   - **Redundancy**: Backup systems and data.  
+   - **Failover Mechanisms**: Ensure continuity during failures.  
+   - **Health Monitoring**: Use tools like Prometheus or Grafana.  
+
+### 7. **Security**  
+   - **Authentication/Authorization**: OAuth, JWT, Role-Based Access Control (RBAC).  
+   - **Data Encryption**: In transit (TLS/SSL) and at rest.  
+   - **DDoS Protection**: Firewalls, rate limiting.  
+
+### 8. **Monitoring and Logging**  
+   - **Metrics Collection**: Use monitoring tools like Prometheus, Datadog.  
+   - **Centralized Logging**: Elasticsearch, Logstash, and Kibana (ELK).  
+
 
