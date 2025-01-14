@@ -36,6 +36,20 @@
 
 ### 8. **Monitoring and Logging**  
    - **Metrics Collection**: Use monitoring tools like Prometheus, Datadog.  
-   - **Centralized Logging**: Elasticsearch, Logstash, and Kibana (ELK).  
+   - **Centralized Logging**: Elasticsearch, Logstash, and Kibana (ELK).
+
+### 9. **High Availability**  
+   - **Multi-Region Deployment**: Geographically distributed data centers.  
+   - **Auto-scaling**: Adjust capacity based on traffic.  
+
+### 10. **Key Trade-offs**  
+   - **Consistency vs. Availability**: CAP theorem.  
+   - **Latency vs. Throughput**: Optimize based on use case.  
+
+### 11. **Design Examples**  
+   - URL Shortener  
+   - Messaging System  
+   - Social Media Feed  
+   - E-commerce Platform  
 
 
