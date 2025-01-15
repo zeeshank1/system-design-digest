@@ -52,25 +52,28 @@
    - Social Media Feed  
    - E-commerce Platform  
 
-12. Distributed Systems
-Leader Election: Select a leader in a cluster (e.g., Raft, Paxos).
-Consensus Algorithms: Ensure agreement across distributed systems (e.g., Zookeeper, etcd).
-Quorum: Majority voting for consistency in distributed systems.
-Data Partitioning Strategies: Range-based, hash-based, or geography-based.
-13. Fault Tolerance
-Redundant Components: Avoid single points of failure.
-Retry Mechanisms: Graceful handling of temporary failures.
-Circuit Breakers: Prevent cascading failures by halting problematic processes.
+### 12. **Distributed Systems**
+- **Leader Election**: Select a leader in a cluster (e.g., Raft, Paxos).
+- **Consensus Algorithms**: Ensure agreement across distributed systems (e.g., Zookeeper, etcd).
+- **Quorum**: Majority voting for consistency in distributed systems.
+- **Data Partitioning Strategies**: Range-based, hash-based, or geography-based.
 
-14. System Observability
-Tracing: Distributed tracing with tools like OpenTelemetry, Jaeger.
-Dashboards: Real-time system status visualization (e.g., Grafana).
-Alerts: Trigger based on thresholds or anomalies.
-15. Content Distribution
-Edge Servers: Reduce latency by hosting content near users.
-Geo-Replication: Store content in multiple global locations.
-16. Concurrency and Parallelism
-Concurrency Models: Threads, async programming, event loops.
-Locks and Mutexes: Prevent race conditions.
-Eventual Consistency: Data consistency achieved over time.
+### 13. **Fault Tolerance**
+- **Redundant Components**: Avoid single points of failure.
+- **Retry Mechanisms**: Graceful handling of temporary failures.
+- **Circuit Breakers**: Prevent cascading failures by halting problematic processes.
+
+### 14. **System Observability**
+- **Tracing**: Distributed tracing with tools like OpenTelemetry, Jaeger.
+- **Dashboards**: Real-time system status visualization (e.g., Grafana).
+- **Alerts**: Trigger based on thresholds or anomalies.
+
+### 15. **Content Distribution**
+- **Edge Servers**: Reduce latency by hosting content near users.
+- **Geo-Replication**: Store content in multiple global locations.
+
+### 16. **Concurrency and Parallelism**
+- **Concurrency Models**: Threads, async programming, event loops.
+- **Locks and Mutexes**: Prevent race conditions.
+- **Eventual Consistency**: Data consistency achieved over time.
 
