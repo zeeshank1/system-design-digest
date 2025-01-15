@@ -52,4 +52,13 @@
    - Social Media Feed  
    - E-commerce Platform  
 
+12. Distributed Systems
+Leader Election: Select a leader in a cluster (e.g., Raft, Paxos).
+Consensus Algorithms: Ensure agreement across distributed systems (e.g., Zookeeper, etcd).
+Quorum: Majority voting for consistency in distributed systems.
+Data Partitioning Strategies: Range-based, hash-based, or geography-based.
+13. Fault Tolerance
+Redundant Components: Avoid single points of failure.
+Retry Mechanisms: Graceful handling of temporary failures.
+Circuit Breakers: Prevent cascading failures by halting problematic processes.
 
