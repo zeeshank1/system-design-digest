@@ -87,3 +87,16 @@ Data Lakes: Store raw, unstructured data.
 Batch vs. Stream Processing: Hadoop (batch) vs. Apache Kafka/Flink (stream).
 Cold vs. Hot Storage: Long-term storage (cheaper) vs. low-latency storage.
 
+19. Consistency Patterns
+Read-After-Write: Ensure data is visible immediately after writing.
+Event Sourcing: Persist events rather than current states.
+
+21. Microservices and Service Mesh
+Service Discovery: Dynamic location of services (e.g., Consul, Eureka).
+Service Mesh: Manage service-to-service communication (e.g., Istio, Linkerd).
+API Gateway: Single entry point for APIs.
+
+23. Scaling Strategies
+Database Scaling: Read replicas, write-heavy sharding.
+Stateless Services: Easier scaling by not storing user data on the service itself.
+
