@@ -76,4 +76,14 @@
 - **Concurrency Models**: Threads, async programming, event loops.
 - **Locks and Mutexes**: Prevent race conditions.
 - **Eventual Consistency**: Data consistency achieved over time.
+- 
+17. System APIs and Protocols
+Websockets: Persistent two-way communication for real-time systems.
+HTTP/2 & HTTP/3: Improved web performance with multiplexing.
+Rate Limiting: Protect APIs from abuse.
+
+18. Data Storage and Processing
+Data Lakes: Store raw, unstructured data.
+Batch vs. Stream Processing: Hadoop (batch) vs. Apache Kafka/Flink (stream).
+Cold vs. Hot Storage: Long-term storage (cheaper) vs. low-latency storage.
 
