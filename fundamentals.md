@@ -100,3 +100,16 @@ API Gateway: Single entry point for APIs.
 Database Scaling: Read replicas, write-heavy sharding.
 Stateless Services: Easier scaling by not storing user data on the service itself.
 
+22. Queuing and Messaging
+Message Brokers: Kafka, RabbitMQ, ActiveMQ.
+Dead Letter Queues (DLQ): Handle failed messages for retry or debugging.
+Event Stream Processing: Analyze and process real-time event data.
+
+24. Data Backup and Recovery
+Snapshot Backups: Periodic snapshots of data.
+Incremental Backups: Only changes since the last backup.
+Disaster Recovery Plan: Recovery Point Objective (RPO) and Recovery Time Objective (RTO).
+
+26. System Availability Metrics
+Uptime Guarantees: SLA (Service Level Agreement).
+MTTR/MTTF: Mean Time to Repair/Failure.
