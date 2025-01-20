@@ -113,3 +113,18 @@
 ### 26. **System Availability Metrics**
 - **Uptime Guarantees**: SLA (Service Level Agreement).
 - **MTTR/MTTF**: Mean Time to Repair/Failure.
+
+### 28. **User Experience (UX) Considerations**
+- **Latency Tolerances**: Design for acceptable response times.
+- **Progressive Loading**: Load visible parts of the system first.
+
+### 29. **Search Systems**
+- **Inverted Index**: Core of search engines.
+- **Autocomplete and Suggestions**: Real-time query help.
+- **Ranking Algorithms**: Determine relevance of results.
+
+### 30. **Key Tools and Technologies**
+- **Databases**: MySQL, PostgreSQL, MongoDB, Cassandra.
+- **Queue Systems**: Kafka, RabbitMQ.
+- **Load Balancers**: NGINX, HAProxy.
+- **Monitoring**: Prometheus, Datadog.
