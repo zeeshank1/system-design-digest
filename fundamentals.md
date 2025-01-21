@@ -146,3 +146,23 @@
 - **Full-Text Search**: Tokenization, stemming, stopwords removal.
 - **Faceted Search**: Filter results based on multiple categories.
 - **Sharding and Replication**: Distribute search data across nodes.
+- 
+
+### 34. Observability and APM
+- **Application Performance Monitoring (APM)**: Monitor app performance (e.g., Dynatrace, New Relic).
+- **Logs Aggregation**: Collect and analyze logs centrally.
+- **Distributed Tracing**: Track requests across microservices.
+
+### 35. CDN and Edge Computing
+- **Content Delivery Network (CDN)**: Distribute content closer to users (e.g., Cloudflare, Akamai).
+- **Edge Computing**: Process data closer to the source for low-latency applications.
+
+### 36. Multi-Tenancy
+- **Shared Database, Shared Schema**: Cost-effective but complex.
+- **Shared Database, Separate Schemas**: Logical separation for tenants.
+- **Separate Databases**: High isolation, easier to scale.
+
+### 37. Schema Design
+- **Normalization**: Reduce redundancy and improve consistency.
+- **Denormalization**: Optimize for read-heavy systems.
+- **Indexing Strategies**: Composite, partial, covering indexes.
