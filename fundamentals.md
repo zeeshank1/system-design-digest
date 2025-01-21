@@ -205,3 +205,33 @@
 - **Service-Level Agreements (SLAs)**: Define performance and availability guarantees.
 - **Consumer-Driven Contracts**: Validate expectations between producers and consumers.
 
+### 45. CAP Theorem and Trade-offs
+- **Consistency**: All nodes see the same data at the same time.
+- **Availability**: Every request receives a response (success/fail).
+- **Partition Tolerance**: System continues to operate despite network partitions.
+
+### 46. Latency Optimization
+- **Geographic Load Balancing**: Route traffic to the nearest data center.
+- **Database Read Replicas**: Reduce load on primary databases.
+- **Prefetching**: Load data in advance.
+
+### 47. Transaction Management
+- **ACID Transactions**: Atomicity, Consistency, Isolation, Durability.
+- **Distributed Transactions**: Two-Phase Commit (2PC), Saga Pattern.
+- **Idempotency**: Ensure repeated operations have the same effect.
+
+### 48. Data Consistency Models
+- **Strong Consistency**: Immediate consistency across nodes.
+- **Eventual Consistency**: Consistency achieved over time.
+- **Read-Your-Write Consistency**: Immediate consistency for the writer.
+
+### 49. Testing in System Design
+- **Unit Testing**: Test individual components.
+- **Integration Testing**: Test combined components for interoperability.
+- **Chaos Engineering**: Simulate failures to test system resilience (e.g., Netflix’s Chaos Monkey).
+
+### 50. Cloud-Native Design
+- **Immutable Infrastructure**: Replace rather than update instances.
+- **Containerization**: Use Docker for portability.
+- **Orchestration**: Kubernetes for managing clusters.
+
