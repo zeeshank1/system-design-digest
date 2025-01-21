@@ -166,3 +166,42 @@
 - **Normalization**: Reduce redundancy and improve consistency.
 - **Denormalization**: Optimize for read-heavy systems.
 - **Indexing Strategies**: Composite, partial, covering indexes.
+- 
+
+### 38. Event-Driven Architecture
+- **Event Producers**: Generate events.
+- **Event Consumers**: React to events.
+- **Event Brokers**: Manage event queues (e.g., Kafka, RabbitMQ).
+- **Event Sourcing**: Store state changes as a series of events.
+
+### 39. Security and Compliance
+- **Data Encryption**: Encrypt sensitive data at rest and in transit.
+- **Access Control**: Role-Based (RBAC) and Attribute-Based Access Control (ABAC).
+- **Audit Logging**: Track user actions for compliance.
+- **Compliance Standards**: GDPR, HIPAA, PCI DSS.
+
+### 40. Fault Isolation
+- **Bulkheads**: Isolate system components to prevent cascading failures.
+- **Graceful Degradation**: Maintain limited functionality during partial failures.
+- **Isolation Testing**: Test components independently.
+
+### 41. Data Streaming and Processing
+- **Stream Processing Frameworks**: Apache Flink, Apache Spark Streaming.
+- **Real-Time Analytics**: Perform analytics on live data streams.
+- **Windowing**: Aggregate data over specific time windows.
+
+### 42. Disaster Recovery
+- **Backup Strategies**: Full, incremental, differential backups.
+- **Active-Active DR**: Both data centers serve live traffic.
+- **Active-Passive DR**: One data center is a backup.
+
+### 43. Blue-Green Deployment
+- **Blue-Green Strategy**: Two environments for deployment; one is live, the other is idle.
+- **Canary Deployment**: Gradually release features to subsets of users.
+- **Rollback Mechanisms**: Revert to a stable version if needed.
+
+### 44. Service Contracts
+- **API Versioning**: Backward compatibility for APIs.
+- **Service-Level Agreements (SLAs)**: Define performance and availability guarantees.
+- **Consumer-Driven Contracts**: Validate expectations between producers and consumers.
+
