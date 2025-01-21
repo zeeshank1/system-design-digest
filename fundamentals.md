@@ -128,3 +128,21 @@
 - **Queue Systems**: Kafka, RabbitMQ.
 - **Load Balancers**: NGINX, HAProxy.
 - **Monitoring**: Prometheus, Datadog.
+- 
+
+### 31. API Gateway and Reverse Proxy
+- **API Gateway**: Centralized point to manage and route API requests (e.g., AWS API Gateway, Kong).
+- **Reverse Proxy**: Routes incoming requests to backend servers (e.g., NGINX, HAProxy).
+- **Authentication**: Centralized token validation.
+- **Rate Limiting**: Prevent abuse of APIs.
+
+### 32. Rate Limiting and Throttling
+- **Token Bucket Algorithm**: Limits requests based on tokens.
+- **Leaky Bucket Algorithm**: Smoothens request bursts.
+- **Throttling**: Slows down user requests rather than rejecting them.
+
+### 33. Search and Indexing
+- **Search Engines**: ElasticSearch, Solr.
+- **Full-Text Search**: Tokenization, stemming, stopwords removal.
+- **Faceted Search**: Filter results based on multiple categories.
+- **Sharding and Replication**: Distribute search data across nodes.
