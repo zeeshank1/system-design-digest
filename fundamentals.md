@@ -244,3 +244,18 @@
 - **Retention Policies**: Define how long data should be stored.
 - **Archival Solutions**: Store old data in cheaper, long-term storage (e.g., Amazon S3 Glacier).
 - **Data Deletion**: Ensure compliance with GDPR or other regulations
+
+### 53. Globalization and Localization
+- **Localization**: Adapt system to local languages, currencies, and formats.
+- **Time Zone Handling**: Use UTC for storage and convert to local times for users.
+- **Multi-Region Support**: Serve users in different geographies efficiently.
+
+### 54. Caching Strategies
+- **Client-Side Caching**: Cache static assets on the client (e.g., browsers).
+- **Server-Side Caching**: Cache frequently accessed data on the server.
+- **Distributed Caching**: Use tools like Redis or Memcached for shared caching.
+
+### 55. Infrastructure Scaling
+- **Vertical Scaling**: Increase resources (CPU, memory) in a single machine.
+- **Horizontal Scaling**: Add more machines to distribute the load.
+- **Auto-Scaling**: Dynamically adjust resources based on demand.
