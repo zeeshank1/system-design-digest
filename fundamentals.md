@@ -235,3 +235,12 @@
 - **Containerization**: Use Docker for portability.
 - **Orchestration**: Kubernetes for managing clusters.
 
+### 51. Serverless Architecture
+- **Event-Driven Computing**: Trigger functions based on events (e.g., AWS Lambda, Azure Functions).
+- **Pay-As-You-Go**: Cost based on actual usage, no idle resource costs.
+- **Stateless Design**: Functions do not retain state between executions.
+
+### 52. Data Lifecycle Management
+- **Retention Policies**: Define how long data should be stored.
+- **Archival Solutions**: Store old data in cheaper, long-term storage (e.g., Amazon S3 Glacier).
+- **Data Deletion**: Ensure compliance with GDPR or other regulations
