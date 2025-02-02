@@ -398,3 +398,23 @@
 - **Right-Sizing Resources**: Avoid over-provisioning cloud resources.
 - **Spot & Reserved Instances**: Reduce costs with flexible cloud pricing models.
 - **Auto-Scaling**: Scale resources based on actual demand.
+- 
+### 84. Zero Trust Architecture
+- **Least Privilege Access**: Restrict access to only what's necessary.
+- **Micro-Segmentation**: Isolate workloads to prevent lateral movement.
+- **Continuous Authentication**: Verify identity for every request.
+
+### 85. High-Frequency Trading (HFT) Systems
+- **Low Latency Execution**: Optimize algorithms for millisecond trading.
+- **Co-location Services**: Place servers near exchange data centers.
+- **Risk Management**: Implement safeguards to prevent massive losses.
+
+### 86. Secure Software Development Lifecycle (SDLC)
+- **Threat Modeling**: Identify security threats early in development.
+- **Secure Coding Practices**: Follow OWASP guidelines to prevent vulnerabilities.
+- **Code Reviews & Static Analysis**: Detect security flaws before deployment.
+
+### 87. Feature Flagging
+- **Gradual Rollouts**: Enable features for select users before full release.
+- **A/B Testing**: Compare different feature versions for performance.
+- **Kill Switches**: Disable problematic features instantly.
