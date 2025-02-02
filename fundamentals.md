@@ -358,4 +358,23 @@
 - **Image Scanning**: Detect vulnerabilities in container images.
 - **Least Privilege Principle**: Run containers with minimal required permissions.
 - **Runtime Security**: Monitor and enforce security policies during execution.
-  
+
+### 76. AI and Automation
+- **AI-Driven Monitoring**: Use ML models to detect anomalies.
+- **RPA (Robotic Process Automation)**: Automate repetitive tasks.
+- **Chatbots & Virtual Assistants**: Enhance user experience with AI-driven interfaces.
+
+### 77. Database Sharding
+- **Horizontal Partitioning**: Split large databases into smaller ones.
+- **Shard Key Selection**: Choose an optimal field to distribute data.
+- **Cross-Shard Queries**: Optimize queries across multiple shards.
+
+### 78. Identity and Access Management (IAM)
+- **Role-Based Access Control (RBAC)**: Assign permissions based on user roles.
+- **Multi-Factor Authentication (MFA)**: Require multiple authentication factors.
+- **Federated Identity**: Use external identity providers (e.g., Google, Azure AD).
+
+### 79. Streaming Data Processing
+- **Event-Driven Processing**: React to data as it arrives.
+- **Frameworks**: Use Apache Kafka, Apache Flink, or Spark Streaming.
+- **Checkpointing**: Ensure fault tolerance and state recovery.
