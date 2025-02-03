@@ -514,3 +514,23 @@
 - **Low Latency**: Reduces network congestion for IoT and real-time applications.
 - **Use Cases**: Smart grids, industrial IoT, autonomous systems.
 
+### 107. Software-Defined Perimeter (SDP)
+- **Zero Trust Access**: Hide internal services from unauthorized users.
+- **Micro-Segmentation**: Limit lateral movement within a network.
+- **Use Cases**: Remote work security, cloud-native security.
+
+### 108. Serverless Databases
+- **Auto-Scaling DB Services**: Pay for only what you use.
+- **Popular Choices**: AWS Aurora Serverless, Azure Cosmos DB, Google Firestore.
+- **Use Cases**: Event-driven applications, on-demand scaling.
+
+### 109. Adaptive Load Balancing
+- **Real-Time Traffic Analysis**: Dynamically adjust traffic routing.
+- **AI-Driven Optimization**: Predict bottlenecks before they occur.
+- **Use Cases**: Large-scale web applications, cloud-native architectures.
+
+### 110. Dynamic Feature Engineering in ML
+- **Real-Time Feature Extraction**: Adapt models based on incoming data.
+- **Automated Feature Selection**: Use AI to identify the most relevant data points.
+- **Use Cases**: Fraud detection, recommendation systems.
+
