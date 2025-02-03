@@ -428,8 +428,23 @@
 - **Disaster Recovery (DR)**: Plan for recovery in case of failures.
 - **Backup Strategies**: Regularly back up data to prevent loss.
 - **Redundant Infrastructure**: Maintain failover systems for reliability.
-
+- 
 ### 90. Green Computing & Sustainability
 - **Energy-Efficient Data Centers**: Reduce carbon footprint.
 - **Serverless & Auto-Scaling**: Optimize resource usage dynamically.
 - **Sustainable Code Practices**: Reduce processing and energy consumption.
+
+### 91. WebAssembly (WASM)
+- **Near-Native Performance**: Run high-performance code in the browser.
+- **Multi-Language Support**: Compile C, C++, Rust, etc., for web applications.
+- **Use Cases**: Web-based games, multimedia processing, computationally intensive tasks.
+
+### 92. Quantum Computing in System Design
+- **Quantum Algorithms**: Solve complex problems exponentially faster.
+- **Hybrid Quantum-Classical Systems**: Integrate quantum with classical computing.
+- **Use Cases**: Cryptography, optimization problems, drug discovery.
+
+### 93. Immutable Infrastructure
+- **No In-Place Changes**: Deploy fresh instances instead of modifying existing ones.
+- **Infrastructure as Code (IaC)**: Use Terraform, Ansible, or CloudFormation.
+- **Rollback Simplicity**: Revert to a previous stable version quickly.
