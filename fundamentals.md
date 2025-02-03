@@ -448,3 +448,18 @@
 - **No In-Place Changes**: Deploy fresh instances instead of modifying existing ones.
 - **Infrastructure as Code (IaC)**: Use Terraform, Ansible, or CloudFormation.
 - **Rollback Simplicity**: Revert to a previous stable version quickly.
+
+- ### 94. Edge AI
+- **On-Device AI Processing**: Perform ML inference on edge devices.
+- **Use Cases**: Autonomous vehicles, real-time fraud detection, industrial IoT.
+- **Frameworks**: TensorFlow Lite, ONNX Runtime, NVIDIA Jetson.
+
+### 95. Confidential Computing
+- **Encrypted Data Processing**: Secure data while in use.
+- **Trusted Execution Environments (TEE)**: Isolate sensitive computations.
+- **Use Cases**: Financial transactions, AI model privacy, sensitive data handling.
+
+### 96. Intent-Based Networking (IBN)
+- **Automated Network Management**: Define desired network behavior and automate enforcement.
+- **AI-Driven Network Optimization**: Use ML to adjust network configurations.
+- **Security Benefits**: Auto-detect and mitigate threats.
