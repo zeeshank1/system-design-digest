@@ -546,8 +546,27 @@
 
 ### 113. Event Sourcing
 - **Immutable Event Log**: Store every state change as an event.
-- **Reconstruct State on Demand**: Use events to rebuild current system state.
+- **Reconstruct State on Demand**: Use events to rebuild the current system state.
 - **Use Cases**: Financial transactions, auditing, real-time analytics.
 
+### 114. Chaos Engineering
+- **Deliberate Failure Testing**: Introduce controlled disruptions to improve resilience.
+- **Popular Tools**: Netflix Chaos Monkey, Gremlin.
+- **Use Cases**: Cloud-based applications, distributed systems, disaster recovery.
+
+### 115. Zero ETL Architectures
+- **Real-Time Data Access**: Avoid traditional ETL pipelines by querying raw data directly.
+- **Examples**: AWS Redshift, Snowflake, Databricks Lakehouse.
+- **Use Cases**: Data streaming, real-time dashboards, analytics.
+
+### 116. Multi-Cloud Strategy
+- **Avoid Vendor Lock-In**: Distribute workloads across multiple cloud providers.
+- **Disaster Recovery**: Improve resilience by having redundant cloud environments.
+- **Use Cases**: Large enterprises, government, financial sectors.
+
+### 117. Hybrid Cloud Security
+- **Unified Security Policies**: Manage security across on-prem and cloud environments.
+- **Cloud-Native Security Tools**: Use CSPM (Cloud Security Posture Management) and CWPP (Cloud Workload Protection Platforms).
+- **Use Cases**: Enterprises with legacy and modern cloud applications.
 
 
