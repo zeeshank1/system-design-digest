@@ -534,3 +534,20 @@
 - **Automated Feature Selection**: Use AI to identify the most relevant data points.
 - **Use Cases**: Fraud detection, recommendation systems.
 
+ ### 111. Cyber-Resilient Architectures
+- **Self-Healing Systems**: Detect and recover from cyberattacks autonomously.
+- **AI-Powered Security**: Use machine learning to predict and mitigate threats.
+- **Use Cases**: Financial institutions, government infrastructure, critical services.
+
+### 112. Data Mesh
+- **Decentralized Data Ownership**: Treat data as a product managed by domain teams.
+- **Federated Governance**: Ensure compliance while enabling data democratization.
+- **Use Cases**: Large-scale enterprise analytics, real-time business intelligence.
+
+### 113. Event Sourcing
+- **Immutable Event Log**: Store every state change as an event.
+- **Reconstruct State on Demand**: Use events to rebuild current system state.
+- **Use Cases**: Financial transactions, auditing, real-time analytics.
+
+
+
