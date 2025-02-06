@@ -569,4 +569,23 @@
 - **Cloud-Native Security Tools**: Use CSPM (Cloud Security Posture Management) and CWPP (Cloud Workload Protection Platforms).
 - **Use Cases**: Enterprises with legacy and modern cloud applications.
 
+### 131. Time-Series Databases
+- **Optimized for Time-Based Data**: Handle high-ingestion rates and time-based queries.
+- **Popular Databases**: InfluxDB, TimescaleDB, Prometheus.
+- **Use Cases**: IoT sensor data, financial market analysis, observability metrics.
+
+### 132. Multi-Model Databases
+- **Support Multiple Data Models**: Combine relational, document, graph, and key-value storage in one DB.
+- **Popular Databases**: ArangoDB, CosmosDB, OrientDB.
+- **Use Cases**: Complex applications requiring multiple data formats.
+
+### 133. Serverless Event-Driven Architecture
+- **Event-Driven Compute**: Execute code only when triggered by an event.
+- **Popular Services**: AWS Lambda, Azure Functions, Google Cloud Functions.
+- **Use Cases**: Log processing, IoT, real-time notifications.
+
+### 134. API Rate Limiting Strategies
+- **Prevent Overuse & Abuse**: Control the number of requests a client can make.
+- **Common Techniques**: Token Bucket, Leaky Bucket, Fixed Window.
+- **Use Cases**: Public APIs, SaaS applications, authentication services.
 
