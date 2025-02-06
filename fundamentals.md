@@ -580,7 +580,7 @@
 - **Use Cases**: Complex applications requiring multiple data formats.
 
 ### 133. Serverless Event-Driven Architecture
-- **Event-Driven Compute**: Execute code only when triggered by an event.
+- **Event-Driven Compute**: Execute code only when an event triggers.
 - **Popular Services**: AWS Lambda, Azure Functions, Google Cloud Functions.
 - **Use Cases**: Log processing, IoT, real-time notifications.
 
@@ -588,4 +588,25 @@
 - **Prevent Overuse & Abuse**: Control the number of requests a client can make.
 - **Common Techniques**: Token Bucket, Leaky Bucket, Fixed Window.
 - **Use Cases**: Public APIs, SaaS applications, authentication services.
+- 
+### 135. Edge Caching & CDNs
+- **Reduce Latency**: Store frequently accessed content closer to users.
+- **Popular CDNs**: Cloudflare, Akamai, AWS CloudFront.
+- **Use Cases**: Media streaming, web applications, content-heavy platforms.
+
+### 136. Secure Software Development Lifecycle (SDLC)
+- **Embed Security in Development**: Shift security left to identify vulnerabilities early.
+- **Key Practices**: Threat modeling, security testing, secure coding guidelines.
+- **Use Cases**: Financial apps, healthcare systems, critical infrastructure.
+
+### 137. Blue-Green Deployment
+- **Zero Downtime Deployment**: Maintain two identical environments, switching traffic gradually.
+- **Alternative**: Canary Deployment for gradual rollout.
+- **Use Cases**: High-availability applications, frequent production releases.
+
+### 138. Message Deduplication in Event-Driven Systems
+- **Avoid Duplicate Message Processing**: Ensure idempotency with unique identifiers.
+- **Techniques**: Deduplication tokens, sequence numbers, Exactly-Once processing.
+- **Use Cases**: Payment processing, order management systems.
+
 
