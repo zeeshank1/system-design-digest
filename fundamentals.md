@@ -609,4 +609,24 @@
 - **Techniques**: Deduplication tokens, sequence numbers, Exactly-Once processing.
 - **Use Cases**: Payment processing, order management systems.
 
+### 139. Secure API Gateway Design
+- **Centralized API Management**: Handle authentication, rate limiting, logging, and analytics.
+- **Popular API Gateways**: Kong, Apigee, AWS API Gateway.
+- **Use Cases**: Microservices security, API monetization, multi-cloud API access.
+
+### 140. Distributed Locking Mechanisms
+- **Ensure Mutual Exclusion in Distributed Systems**: Prevent race conditions.
+- **Techniques**: Redis-based locks, ZooKeeper, database row locking.
+- **Use Cases**: Inventory management, distributed task scheduling.
+
+### 141. Adaptive Load Balancing
+- **Dynamically Adjust Traffic Distribution**: Balance requests based on real-time metrics.
+- **Popular Load Balancers**: Nginx, HAProxy, AWS ALB/ELB.
+- **Use Cases**: High-traffic websites, cloud applications, failover management.
+
+### 142. Eventual Consistency vs. Strong Consistency
+- **Trade-off Between Availability & Consistency**: CAP theorem implications.
+- **Eventual Consistency Examples**: NoSQL databases, DNS systems.
+- **Strong Consistency Examples**: RDBMS, transactional banking systems.
+- **Use Cases**: Choosing the right consistency model for different application needs.
 
