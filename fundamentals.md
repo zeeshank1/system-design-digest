@@ -660,3 +660,18 @@
 - **Industries**: Manufacturing, IoT, Smart Cities.
 - **Use Cases**: Predictive maintenance, real-time monitoring, asset tracking.
 
+- ### 146. Real-Time Collaborative Systems
+- **Enable Concurrent Edits & Synchronization**: Ensure seamless multi-user collaboration.
+- **Techniques**: Operational Transformations (OT), Conflict-Free Replicated Data Types (CRDTs).
+- **Use Cases**: Google Docs, Figma, real-time coding platforms.
+
+### 147. Secure WebSockets Communication
+- **Maintain Persistent, Secure Connections**: Protect against man-in-the-middle (MITM) attacks.
+- **Best Practices**: TLS encryption, token-based authentication, connection timeouts.
+- **Use Cases**: Chat applications, real-time trading, gaming.
+
+### 148. Digital Twin Architectures
+- **Virtual Replicas of Physical Systems**: Simulate real-world environments.
+- **Industries**: Manufacturing, IoT, Smart Cities.
+- **Use Cases**: Predictive maintenance, real-time monitoring, asset tracking.
+
