@@ -770,6 +770,21 @@
 - **Trade-offs**: Complexity, flexibility, and resilience.
 - **Use Cases**: Complex business workflows, microservices orchestration, event-driven architectures.
 
+  ### 168. Static vs. Dynamic Service Discovery
+- **Static Discovery**: Hard-coded service endpoints offer simplicity but limited flexibility.
+- **Dynamic Discovery**: Use registries (e.g., Eureka, Consul) to allow runtime service lookup.
+- **Use Cases**: Microservices architectures, containerized environments, cloud-native applications.
+- 
+### 169. Load Testing and Performance Benchmarking
+- **Simulate Real-World Traffic**: Identify bottlenecks and stress points under realistic loads.
+- **Popular Tools**: JMeter, Gatling, Locust.
+- **Best Practices**: Use realistic scenarios, monitor key metrics, and iterate based on findings.
+
+### 170. Privacy by Design
+- **Integrate Privacy from the Start**: Embed data protection principles into the architecture.
+- **Data Minimization**: Collect only necessary data to achieve business goals.
+- **Compliance & Trust**: Align with regulations such as GDPR and CCPA while building user trust.
+
 ### 168. Static vs. Dynamic Service Discovery
 - **Static Discovery**: Hard-coded service endpoints offer simplicity but limited flexibility.
 - **Dynamic Discovery**: Use registries (e.g., Eureka, Consul) to allow runtime service lookup.
