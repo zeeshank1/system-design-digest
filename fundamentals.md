@@ -675,3 +675,13 @@
 - **Industries**: Manufacturing, IoT, Smart Cities.
 - **Use Cases**: Predictive maintenance, real-time monitoring, asset tracking.
 
+- ### 149. Smart API Versioning Strategies
+- **Avoid Breaking Changes in APIs**: Maintain backward compatibility.
+- **Approaches**: URL versioning (`/v1/`), Header-based versioning, Query parameter versioning.
+- **Use Cases**: Public APIs, microservices evolution, SaaS platforms.
+
+### 150. Data Sharding Best Practices
+- **Scale Databases Horizontally**: Split large datasets across multiple servers.
+- **Sharding Strategies**: Range-based, Hash-based, Directory-based.
+- **Use Cases**: Large-scale user databases, multi-tenant SaaS applications.
+
