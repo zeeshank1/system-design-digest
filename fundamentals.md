@@ -699,4 +699,24 @@
 - **Cache Coherence**: Maintain consistency between cache and the primary data source.
 - **Invalidation Techniques**: Time-to-live (TTL), event-driven purging, manual invalidation.
 - **Use Cases**: High-read systems, session management, product catalogues.
+- 
+### 154. Hybrid Transactional/Analytical Processing (HTAP)
+- **Unified Workloads**: Handle both OLTP and OLAP operations in a single database.
+- **Real-Time Analytics**: Enable immediate insights on transactional data.
+- **Popular Solutions**: TiDB, Apache HBase with Spark, Google Spanner.
+
+### 155. Server-Side Rendering (SSR) & Static Site Generation (SSG)
+- **Improved SEO & Performance**: Pre-render pages for faster initial load.
+- **Frameworks**: Next.js, Nuxt.js, Gatsby.
+- **Trade-offs**: Balancing dynamic content needs with static generation benefits.
+
+### 156. Circuit Breaker Patterns for Resiliency
+- **Fault Isolation**: Prevent cascading failures in distributed environments.
+- **Fallback Mechanisms**: Provide alternative responses during service disruptions.
+- **Libraries**: Resilience4j, Netflix Hystrix (legacy).
+
+### 157. GraphQL vs. REST Architectures
+- **Flexibility vs. Simplicity**: GraphQL allows clients to request only necessary data, while REST follows standard HTTP conventions.
+- **Caching Considerations**: REST benefits from native HTTP caching; GraphQL often requires custom solutions.
+- **Use Cases**: Complex data fetching, mobile app backends, microservices aggregation.
 
