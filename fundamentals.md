@@ -76,7 +76,7 @@
 - **Concurrency Models**: Threads, async programming, event loops.
 - **Locks and Mutexes**: Prevent race conditions.
 - **Eventual Consistency**: Data consistency achieved over time.
-- 
+  
 ### 17. **System APIs and Protocols**
 - **Websockets**: Persistent two-way communication for real-time systems.
 - **HTTP/2 & HTTP/3**: Improved web performance with multiplexing.
@@ -585,7 +585,7 @@
 - **Prevent Overuse & Abuse**: Control the number of requests a client can make.
 - **Common Techniques**: Token Bucket, Leaky Bucket, Fixed Window.
 - **Use Cases**: Public APIs, SaaS applications, authentication services.
-- 
+  
 ### 135. Edge Caching & CDNs
 - **Reduce Latency**: Store frequently accessed content closer to users.
 - **Popular CDNs**: Cloudflare, Akamai, AWS CloudFront.
@@ -626,7 +626,7 @@
 - **Eventual Consistency Examples**: NoSQL databases, DNS systems.
 - **Strong Consistency Examples**: RDBMS, transactional banking systems.
 - **Use Cases**: Choosing the right consistency model for different application needs.
-- 
+  
 ### 143. Data Lakehouse Architecture
 - **Hybrid Data Storage Model**: Combine Data Lakes (raw data) with Data Warehouses (structured data).
 - **Popular Implementations**: Databricks, Snowflake, AWS Lake Formation.
@@ -641,7 +641,7 @@
 - **Monitor Request Flow Across Services**: Identify bottlenecks and latency issues.
 - **Popular Tools**: OpenTelemetry, Jaeger, Zipkin.
 - **Use Cases**: Debugging complex distributed systems, performance monitoring.
-- 
+  
 ### 146. Real-Time Collaborative Systems
 - **Enable Concurrent Edits & Synchronization**: Ensure seamless multi-user collaboration.
 - **Techniques**: Operational Transformations (OT), Conflict-Free Replicated Data Types (CRDTs).
@@ -657,7 +657,7 @@
 - **Industries**: Manufacturing, IoT, Smart Cities.
 - **Use Cases**: Predictive maintenance, real-time monitoring, asset tracking.
 
-- ### 146. Real-Time Collaborative Systems
+### 146. Real-Time Collaborative Systems
 - **Enable Concurrent Edits & Synchronization**: Ensure seamless multi-user collaboration.
 - **Techniques**: Operational Transformations (OT), Conflict-Free Replicated Data Types (CRDTs).
 - **Use Cases**: Google Docs, Figma, real-time coding platforms.
@@ -693,10 +693,10 @@
 - **Tools**: AWS CloudWatch, Azure Monitor, Google Cloud Operations.
 
 ### 153. Distributed Cache Invalidation Strategies
-- **Cache Coherence**: Maintain consistency between cache and the primary data source.
+- **Cache Coherence**: Maintain consistency between the cache and the primary data source.
 - **Invalidation Techniques**: Time-to-live (TTL), event-driven purging, manual invalidation.
-- **Use Cases**: High-read systems, session management, product catalogues.
-- 
+- **Use Cases**: High-read systems, session management, product catalogs.
+  
 ### 154. Hybrid Transactional/Analytical Processing (HTAP)
 - **Unified Workloads**: Handle both OLTP and OLAP operations in a single database.
 - **Real-Time Analytics**: Enable immediate insights on transactional data.
@@ -726,7 +726,7 @@
 - **Separation of Read and Write Workloads**: Optimize performance by splitting command and query operations.
 - **Eventual Consistency**: Allow asynchronous updates between models.
 - **Use Cases**: E-commerce platforms, financial applications, high-read systems.
-- 
+  
 ### 161. Distributed System Debugging and Diagnostics
 - **Log Correlation**: Aggregate logs from multiple services to form a unified view.
 - **Tracing Tools**: Use distributed tracing to pinpoint latency and errors.
@@ -751,14 +751,14 @@
 - **Empower Developers**: Provide tools, APIs, and documentation to accelerate development.
 - **Automation**: Enable onboarding and integrations with minimal manual intervention.
 - **Use Cases**: SaaS platforms, API ecosystems, internal developer tools.
-- 
+  
 ### 165. Data Anonymization Techniques
 - **Privacy Protection**: Remove or obfuscate personally identifiable information (PII).
 - **Techniques**: Data masking, tokenization, aggregation.
 - **Use Cases**: GDPR compliance, secure data sharing, research datasets.
 
 ### 166. Infrastructure Cost Monitoring & Optimization
-- **Cost Visibility**: Monitor resource usage and expenses in real time.
+- **Cost Visibility**: Monitor resource usage and expenses in real-time.
 - **Optimization Tools**: Use cloud cost management platforms (e.g., AWS Cost Explorer, CloudHealth).
 - **Best Practices**: Right-sizing resources, leveraging auto-scaling, utilizing reserved instances.
 
@@ -767,11 +767,11 @@
 - **Trade-offs**: Complexity, flexibility, and resilience.
 - **Use Cases**: Complex business workflows, microservices orchestration, event-driven architectures.
 
-  ### 168. Static vs. Dynamic Service Discovery
+### 168. Static vs. Dynamic Service Discovery
 - **Static Discovery**: Hard-coded service endpoints offer simplicity but limited flexibility.
 - **Dynamic Discovery**: Use registries (e.g., Eureka, Consul) to allow runtime service lookup.
 - **Use Cases**: Microservices architectures, containerized environments, cloud-native applications.
-- 
+  
 ### 169. Load Testing and Performance Benchmarking
 - **Simulate Real-World Traffic**: Identify bottlenecks and stress points under realistic loads.
 - **Popular Tools**: JMeter, Gatling, Locust.
