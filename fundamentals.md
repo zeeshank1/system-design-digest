@@ -720,3 +720,17 @@
 - **Caching Considerations**: REST benefits from native HTTP caching; GraphQL often requires custom solutions.
 - **Use Cases**: Complex data fetching, mobile app backends, microservices aggregation.
 
+### 158. Microkernel Architecture
+- **Core System with Plug-ins**: Maintain a minimal core and extend functionality via plugins.
+- **Separation of Concerns**: Isolate core logic from additional features.
+- **Use Cases**: IDEs, modular applications, extensible enterprise platforms.
+
+### 159. Command Query Responsibility Segregation (CQRS)
+- **Separation of Read and Write Workloads**: Optimize performance by splitting command and query operations.
+- **Eventual Consistency**: Allow asynchronous updates between models.
+- **Use Cases**: E-commerce platforms, financial applications, high-read systems.
+
+### 160. Self-Service Platforms & Developer Portals
+- **Empower Developers**: Provide tools, APIs, and documentation to accelerate development.
+- **Automation**: Enable onboarding and integrations with minimal manual intervention.
+- **Use Cases**: SaaS platforms, API ecosystems, internal developer tools.
