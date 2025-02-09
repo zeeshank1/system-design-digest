@@ -675,7 +675,7 @@
 - **Industries**: Manufacturing, IoT, Smart Cities.
 - **Use Cases**: Predictive maintenance, real-time monitoring, asset tracking.
 
-- ### 149. Smart API Versioning Strategies
+### 149. Smart API Versioning Strategies
 - **Avoid Breaking Changes in APIs**: Maintain backward compatibility.
 - **Approaches**: URL versioning (`/v1/`), Header-based versioning, Query parameter versioning.
 - **Use Cases**: Public APIs, microservices evolution, SaaS platforms.
@@ -684,4 +684,19 @@
 - **Scale Databases Horizontally**: Split large datasets across multiple servers.
 - **Sharding Strategies**: Range-based, Hash-based, Directory-based.
 - **Use Cases**: Large-scale user databases, multi-tenant SaaS applications.
+
+### 151. Dynamic Configuration Management
+- **Centralized Configuration Stores**: Manage application settings in one location.
+- **Runtime Reloading**: Update configurations without restarting services.
+- **Popular Tools**: Consul, etcd, Spring Cloud Config.
+
+### 152. Observability in Serverless Architectures
+- **Function-Level Metrics**: Monitor individual function performance.
+- **Cold Start Analysis**: Identify delays from function initialization.
+- **Tools**: AWS CloudWatch, Azure Monitor, Google Cloud Operations.
+
+### 153. Distributed Cache Invalidation Strategies
+- **Cache Coherence**: Maintain consistency between cache and the primary data source.
+- **Invalidation Techniques**: Time-to-live (TTL), event-driven purging, manual invalidation.
+- **Use Cases**: High-read systems, session management, product catalogues.
 
