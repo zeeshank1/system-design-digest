@@ -1,4 +1,4 @@
-m### 1. **System Design Fundamentals**  
+### 1. **System Design Fundamentals**  
    - **Understand Requirements**: Functional (features) and non-functional (scalability, reliability).  
    - **Traffic Estimation**: Requests per second (RPS), data storage, and bandwidth needs.  
    - **Architectural Patterns**: Layered architecture, Microservices, Event-driven, Serverless.  
@@ -822,3 +822,18 @@ m### 1. **System Design Fundamentals**
 - **Ready-Made Backend Services**: Provide authentication, databases, push notifications, and file storage.
 - **Scalability**: Support rapid mobile app growth without managing servers.
 - **Popular Platforms**: Firebase, AWS Amplify, Kinvey.
+
+### 178. Augmented Reality (AR) and Virtual Reality (VR) System Design
+- **Real-Time Rendering**: Optimize for low-latency graphics and sensor input.
+- **Sensor Integration**: Utilize motion tracking, spatial mapping, and depth sensors.
+- **UX Considerations**: Focus on immersive experiences, ergonomics, and device constraints.
+
+### 179. Real-Time Geospatial Data Processing
+- **Spatial Data Handling**: Process and query location-based data efficiently.
+- **Mapping Frameworks**: Use spatial databases (e.g., PostGIS) and mapping APIs.
+- **Use Cases**: Ride-sharing apps, logistics, location-based marketing.
+
+### 180. Intelligent Traffic Management in Networks
+- **Dynamic Routing**: Leverage AI/ML to predict and optimize network traffic flow.
+- **Software Defined Networking (SDN)**: Integrate with SDN controllers for real-time network reconfiguration.
+- **Anomaly Detection**: Identify and mitigate network congestion or malicious traffic patterns.
