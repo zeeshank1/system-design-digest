@@ -1,4 +1,4 @@
-### 1. **System Design Fundamentals**  
+m### 1. **System Design Fundamentals**  
    - **Understand Requirements**: Functional (features) and non-functional (scalability, reliability).  
    - **Traffic Estimation**: Requests per second (RPS), data storage, and bandwidth needs.  
    - **Architectural Patterns**: Layered architecture, Microservices, Event-driven, Serverless.  
@@ -12,7 +12,7 @@
    - **Database Choices**: Relational (SQL) vs. NoSQL (Key-Value, Document, Columnar, Graph).  
    - **Indexing**: Optimize query performance.  
    - **Replication**: Ensure data availability.  
-   - **Sharding**: Split data across servers.  
+   - **Sharding**: Split data across servers.
    - **Caching**: Use Redis, and Memcached for frequently accessed data.  
 
 ### 4. **APIs and Communication**  
@@ -802,3 +802,23 @@
 - **Real-Time Recommendations**: Use collaborative filtering and content-based algorithms.
 - **Behavioral Analytics**: Analyze user behavior to tailor experiences.
 - **Big Data Integration**: Leverage data pipelines and machine learning for dynamic personalization.
+
+### 174. IoT Protocols and Connectivity
+- **Communication Protocols**: Utilize MQTT, CoAP, and AMQP for lightweight messaging.
+- **Device Management**: Handle connectivity, firmware updates, and remote configuration.
+- **Edge Gateways**: Aggregate and preprocess data from multiple IoT devices.
+
+### 175. Blockchain Oracles for External Data
+- **Bridging On-Chain and Off-Chain**: Fetch and verify external data for smart contracts.
+- **Data Integrity**: Ensure trusted and tamper-proof data feeds.
+- **Use Cases**: DeFi applications, insurance, supply chain tracking.
+
+### 176. Smart Contract Auditing and Security
+- **Code Reviews & Formal Verification**: Identify vulnerabilities before deployment.
+- **Common Vulnerabilities**: Prevent issues like reentrancy, integer overflows, and logic flaws.
+- **Audit Tools**: MythX, Slither, and manual peer reviews.
+
+### 177. Mobile Backend as a Service (MBaaS)
+- **Ready-Made Backend Services**: Provide authentication, databases, push notifications, and file storage.
+- **Scalability**: Support rapid mobile app growth without managing servers.
+- **Popular Platforms**: Firebase, AWS Amplify, Kinvey.
