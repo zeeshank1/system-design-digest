@@ -1,7 +1,38 @@
 ### 1. **System Design Fundamentals**  
    - **Understand Requirements**: Functional (features) and non-functional (scalability, reliability).  
    - **Traffic Estimation**: Requests per second (RPS), data storage, and bandwidth needs.  
-   - **Architectural Patterns**: Layered architecture, Microservices, Event-driven, Serverless.  
+   - **Architectural Patterns**: Layered architecture, Microservices, Event-driven, Serverless.
+
+#### Understand Requirements
+- **Functional Requirements:**  
+  Define what the system should do. Examples include features like user registration, payment processing, or content delivery.
+  
+- **Non-Functional Requirements:**  
+  These cover performance, scalability, reliability, security, and usability. For instance, response time targets, uptime guarantees, and data encryption standards.
+  
+- **Stakeholder Analysis:**  
+  Identify and gather input from various stakeholders (developers, end-users, business managers) to capture all expectations and constraints.
+
+#### Traffic Estimation
+- **Volume Prediction:**  
+  Estimate the number of requests per second (RPS), daily active users, and data throughput. This helps in sizing the infrastructure.
+  
+- **Growth Projections:**  
+  Consider current trends and future growth to ensure the system can scale over time.
+  
+- **Capacity Planning:**  
+  Use the estimations to plan the necessary compute, storage, and network resources.
+
+#### Architectural Patterns
+- **Monolithic vs. Microservices:**  
+  Decide whether a single, unified application or a set of small, independent services best fits your needs.
+  
+- **Layered Architecture:**  
+  Organize the system into logical layers (presentation, business logic, data access) to promote separation of concerns.
+  
+- **Event-Driven and Serverless:**  
+  Consider asynchronous event handling or using serverless functions for scalability and reduced operational overhead.
+
 
 ### 2. **Scalability**  
    - **Horizontal Scaling**: Adding more servers.  
