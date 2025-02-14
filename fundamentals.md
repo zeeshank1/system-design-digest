@@ -154,7 +154,42 @@
 ### 5. **Performance Optimization**  
    - **Content Delivery Network (CDN)**: Deliver static content.  
    - **Compression**: Reduce data size (e.g., gzip).  
-   - **Database Optimization**: Denormalization, partitioning.  
+   - **Database Optimization**: Denormalization, partitioning.
+   - 
+   #### Content Delivery Network (CDN)
+- **Function:**  
+  Distribute static assets (images, CSS, JavaScript) across geographically dispersed servers to reduce latency.
+  
+- **Benefits:**  
+  Improves load times and reduces the strain on the origin server.
+  
+- **Examples:**  
+  Cloudflare, Akamai, AWS CloudFront.
+
+#### Compression
+- **Purpose:**  
+  Reduce the size of data transmitted over the network.
+  
+- **Techniques:**  
+  Use Gzip, Brotli, or similar algorithms to compress HTML, CSS, and JavaScript files.
+  
+- **Benefits:**  
+  Lower bandwidth usage and faster page load times, especially important for mobile and global audiences.
+
+#### Database Optimization
+- **Denormalization:**  
+  Sometimes duplicating data to reduce the need for expensive joins can improve read performance.
+  
+- **Partitioning:**  
+  Divide large tables into smaller, manageable pieces to speed up query performance.
+  
+- **Indexing and Query Tuning:**  
+  Regularly analyze and optimize queries to ensure that indexes are used effectively.
+  
+- **Caching Layer:**  
+  Combine database optimizations with a caching layer to serve frequently requested data faster.
+
+---
 
 ### 6. **Reliability**  
    - **Redundancy**: Backup systems and data.  
