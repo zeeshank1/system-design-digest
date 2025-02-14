@@ -33,6 +33,7 @@
 - **Event-Driven and Serverless:**  
   Consider asynchronous event handling or using serverless functions for scalability and reduced operational overhead.
 
+---
 
 ### 2. **Scalability**  
    - **Horizontal Scaling**: Adding more servers.  
@@ -65,6 +66,8 @@
   
 - **Redundancy:**  
   Implement multiple load balancers to avoid a single point of failure (SPOF).
+
+  ---
 
 ### 3. **Data Management**  
    - **Database Choices**: Relational (SQL) vs. NoSQL (Key-Value, Document, Columnar, Graph).  
@@ -120,6 +123,7 @@
 - **Strategies:**  
   Use appropriate cache invalidation policies to ensure data consistency.
 
+---
 
 ### 4. **APIs and Communication**  
    - **API Design**: REST, GraphQL, or gRPC.  
@@ -149,7 +153,9 @@
   Systems like Apache Kafka, RabbitMQ, or AWS SQS that manage high-throughput message passing.
   
 - **Benefits:**  
-  Allows services to process messages at their own pace and improves fault tolerance by buffering messages during peak loads.  
+  Allows services to process messages at their own pace and improves fault tolerance by buffering messages during peak loads.
+
+  ---
 
 ### 5. **Performance Optimization**  
    - **Content Delivery Network (CDN)**: Deliver static content.  
