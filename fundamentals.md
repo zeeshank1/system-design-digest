@@ -37,7 +37,34 @@
 ### 2. **Scalability**  
    - **Horizontal Scaling**: Adding more servers.  
    - **Vertical Scaling**: Increasing server capacity.  
-   - **Load Balancers**: Distribute traffic across servers.  
+   - **Load Balancers**: Distribute traffic across servers.
+
+#### Horizontal Scaling
+- **Definition:**  
+  Adding more machines (nodes) to distribute the load.
+  
+- **Benefits:**  
+  Increases fault tolerance, enables high availability, and allows handling more requests.
+  
+- **Examples:**  
+  Scaling out web servers behind a load balancer, distributing database load with multiple replicas.
+
+#### Vertical Scaling
+- **Definition:**  
+  Increasing the power (CPU, RAM) of a single machine.
+  
+- **Trade-offs:**  
+  Often simpler to implement but limited by the maximum capacity of a single machine and can introduce a single point of failure.
+
+#### Load Balancers
+- **Role:**  
+  Distribute incoming traffic evenly across servers to prevent any single node from becoming a bottleneck.
+  
+- **Techniques:**  
+  Round-robin, least connections, IP hashing, etc.
+  
+- **Redundancy:**  
+  Implement multiple load balancers to avoid a single point of failure (SPOF).
 
 ### 3. **Data Management**  
    - **Database Choices**: Relational (SQL) vs. NoSQL (Key-Value, Document, Columnar, Graph).  
