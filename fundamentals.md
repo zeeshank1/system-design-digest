@@ -242,7 +242,6 @@
    - **Authentication/Authorization**: OAuth, JWT, Role-Based Access Control (RBAC).  
    - **Data Encryption**: In transit (TLS/SSL) and at rest.  
    - **DDoS Protection**: Firewalls, rate limiting.  
-### 7. Security
 
 #### Authentication and Authorization
 - **Methods:**  
@@ -281,6 +280,42 @@
 ### 8. **Monitoring and Logging**  
    - **Metrics Collection**: Use monitoring tools like Prometheus, and Datadog.  
    - **Centralized Logging**: Elasticsearch, Logstash, and Kibana (ELK).
+
+### 8. Monitoring and Logging
+
+#### Metrics Collection
+- **Key Metrics:**  
+  Track CPU/memory usage, response times, error rates, and throughput.
+- **Tools:**  
+  Use Prometheus, Datadog, or New Relic to collect and analyze performance data.
+- **Dashboards:**  
+  Visualize key metrics in real-time with dashboards like Grafana.
+
+#### Centralized Logging
+- **Log Aggregation:**  
+  Collect logs from various services into a central repository.
+- **Tools:**  
+  Implement ELK/EFK stacks (Elasticsearch, Logstash/Fluentd, Kibana) for efficient log management.
+- **Benefits:**  
+  Facilitates easier troubleshooting, audit trails, and compliance verification.
+
+#### Distributed Tracing
+- **Purpose:**  
+  Trace requests as they flow through multiple services to identify bottlenecks and latency issues.
+- **Tools:**  
+  Use Jaeger, Zipkin, or OpenTelemetry to correlate logs and performance metrics.
+- **Best Practices:**  
+  Tag and track critical transactions for end-to-end visibility.
+
+#### Alerting and Incident Management
+- **Automated Alerts:**  
+  Configure alerts for critical thresholds (e.g., high error rates, increased latency).
+- **Incident Response:**  
+  Use tools like PagerDuty or Opsgenie to notify the right teams and ensure timely resolution.
+- **Post-Mortems:**  
+  Analyze incidents post-resolution to improve future system resilience.
+
+---
 
 ### 9. **High Availability**  
    - **Multi-Region Deployment**: Geographically distributed data centers.  
