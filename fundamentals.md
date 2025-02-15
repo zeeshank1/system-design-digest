@@ -202,6 +202,42 @@
    - **Failover Mechanisms**: Ensure continuity during failures.  
    - **Health Monitoring**: Use tools like Prometheus or Grafana.  
 
+### 6. Reliability
+
+#### Redundancy
+- **Definition:**  
+  Duplicate critical components (hardware, services, data) to eliminate single points of failure.
+- **Implementation:**  
+  Deploy multiple instances of services, use replicated databases, and maintain backup servers.
+- **Benefits:**  
+  Ensures the system can continue functioning even if one component fails.
+
+#### Failover Mechanisms
+- **Purpose:**  
+  Automatically switch to backup systems when primary systems encounter issues.
+- **Approaches:**  
+  Active-passive setups where standby systems take over, or active-active where load is shared and failures are seamlessly managed.
+- **Examples:**  
+  Database replicas with automatic failover, redundant load balancers.
+
+#### Health Monitoring & Self-Healing
+- **Monitoring Tools:**  
+  Use systems like Prometheus, Grafana, or Datadog to track performance and health.
+- **Practices:**  
+  Implement automated alerts and health checks. Incorporate self-healing scripts that restart or replace failed components.
+- **Benefits:**  
+  Early detection of issues reduces downtime and minimizes the impact of failures.
+
+#### Disaster Recovery Planning
+- **Backup Strategies:**  
+  Regular data backups (full, incremental, differential) with clearly defined Recovery Time Objective (RTO) and Recovery Point Objective (RPO).
+- **DR Drills:**  
+  Periodically test disaster recovery plans to ensure rapid recovery during real incidents.
+- **Documentation:**  
+  Maintain runbooks and recovery procedures for quick reference during an outage.
+
+---
+
 ### 7. **Security**  
    - **Authentication/Authorization**: OAuth, JWT, Role-Based Access Control (RBAC).  
    - **Data Encryption**: In transit (TLS/SSL) and at rest.  
