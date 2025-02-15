@@ -15,13 +15,13 @@
 
 #### Traffic Estimation
 - **Volume Prediction:**  
-  Estimate the number of requests per second (RPS), daily active users, and data throughput. This helps in sizing the infrastructure.
+  Estimate the number of requests per second (RPS), daily active users, and data throughput to help size the infrastructure.
   
 - **Growth Projections:**  
   Consider current trends and future growth to ensure the system can scale over time.
   
 - **Capacity Planning:**  
-  Use the estimations to plan the necessary compute, storage, and network resources.
+  Use the estimations to plan the necessary computing, storage, and network resources.
 
 #### Architectural Patterns
 - **Monolithic vs. Microservices:**  
@@ -75,8 +75,8 @@
    - **Replication**: Ensure data availability.  
    - **Sharding**: Split data across servers.
    - **Caching**: Use Redis, and Memcached for frequently accessed data.
-   - 
-   #### Database Choices
+
+ #### Database Choices
 - **Relational Databases (SQL):**  
   Ideal for structured data with clear relationships, offering ACID compliance (e.g., PostgreSQL, MySQL).
   
@@ -91,7 +91,7 @@
   Single-field, composite, and full-text indexes.
   
 - **Considerations:**  
-  Balance between read performance improvement and the overhead on write operations.
+  The balance between read performance improvement and the overhead on write operations.
 
 #### Replication
 - **Definition:**  
@@ -129,7 +129,7 @@
    - **API Design**: REST, GraphQL, or gRPC.  
    - **Asynchronous Messaging**: Kafka, RabbitMQ for decoupling services.
 
-     #### API Design
+#### API Design
 - **REST (Representational State Transfer):**  
   Uses standard HTTP methods (GET, POST, PUT, DELETE) for stateless operations. It's simple and widely adopted.
   
@@ -180,7 +180,7 @@
   Use Gzip, Brotli, or similar algorithms to compress HTML, CSS, and JavaScript files.
   
 - **Benefits:**  
-  Lower bandwidth usage and faster page load times, especially important for mobile and global audiences.
+  Lower bandwidth usage and faster page load times are especially important for mobile and global audiences.
 
 #### Database Optimization
 - **Denormalization:**  
@@ -202,8 +202,6 @@
    - **Failover Mechanisms**: Ensure continuity during failures.  
    - **Health Monitoring**: Use tools like Prometheus or Grafana.  
 
-### 6. Reliability
-
 #### Redundancy
 - **Definition:**  
   Duplicate critical components (hardware, services, data) to eliminate single points of failure.
@@ -216,9 +214,9 @@
 - **Purpose:**  
   Automatically switch to backup systems when primary systems encounter issues.
 - **Approaches:**  
-  Active-passive setups where standby systems take over, or active-active where load is shared and failures are seamlessly managed.
+  Active-passive setups where standby systems take over, or active-active where the load is shared and failures are seamlessly managed.
 - **Examples:**  
-  Database replicas with automatic failover, redundant load balancers.
+  Database replicas with automatic failover, and redundant load balancers.
 
 #### Health Monitoring & Self-Healing
 - **Monitoring Tools:**  
@@ -280,8 +278,6 @@
 ### 8. **Monitoring and Logging**  
    - **Metrics Collection**: Use monitoring tools like Prometheus, and Datadog.  
    - **Centralized Logging**: Elasticsearch, Logstash, and Kibana (ELK).
-
-### 8. Monitoring and Logging
 
 #### Metrics Collection
 - **Key Metrics:**  
@@ -349,7 +345,40 @@
 
 ### 10. **Key Trade-offs**  
    - **Consistency vs. Availability**: CAP theorem.  
-   - **Latency vs. Throughput**: Optimize based on use case.  
+   - **Latency vs. Throughput**: Optimize based on use case.
+     
+#### CAP Theorem
+- **Overview:**  
+  Understand the trade-offs between Consistency, Availability, and Partition Tolerance.
+- **Implications:**  
+  Decide which aspects to prioritize depending on the use case (e.g., banking vs. social media).
+- **Design Decisions:**  
+  Adjust consistency models (strong vs. eventual consistency) to meet system requirements.
+
+#### Latency vs. Throughput
+- **Latency:**  
+  The time taken to process a single request.
+- **Throughput:**  
+  The number of requests processed in a given time frame.
+- **Optimization:**  
+  Strike a balance between rapid responses and handling many concurrent requests.
+
+#### Complexity vs. Simplicity
+- **Simplicity:**  
+  Easier to build, test, and maintain but might lack scalability.
+- **Complexity:**  
+  Offers more features and scalability but increases the risk of bugs and requires more robust monitoring.
+- **Decision Making:**  
+  Evaluate the system’s long-term needs to determine the optimal level of complexity.
+
+#### Cost vs. Performance
+- **Budget Constraints:**  
+  Consider the cost implications of high-performance architectures.
+- **Scaling Costs:**  
+  High availability and redundancy often incur additional expenses.
+- **Optimization:**  
+  Find a balance that meets performance requirements while remaining cost-effective.
+
 
 ### 11. **Design Examples**  
    - URL Shortener  
