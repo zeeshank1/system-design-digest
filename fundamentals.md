@@ -161,8 +161,8 @@
    - **Content Delivery Network (CDN)**: Deliver static content.  
    - **Compression**: Reduce data size (e.g., gzip).  
    - **Database Optimization**: Denormalization, partitioning.
-   - 
-   #### Content Delivery Network (CDN)
+     
+#### Content Delivery Network (CDN)
 - **Function:**  
   Distribute static assets (images, CSS, JavaScript) across geographically dispersed servers to reduce latency.
   
