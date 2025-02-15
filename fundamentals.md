@@ -379,12 +379,40 @@
 - **Optimization:**  
   Find a balance that meets performance requirements while remaining cost-effective.
 
+---
 
 ### 11. **Design Examples**  
    - URL Shortener  
    - Messaging System  
    - Social Media Feed  
-   - E-commerce Platform  
+   - E-commerce Platform
+
+#### URL Shortener
+
+- **Core Features:**
+  - **Shortening Logic:** Converts long URLs into a shorter, unique identifier.
+  - **Redirection:** Redirects requests from the short URL to the original URL.
+  - **Analytics (Optional):** Tracks click metrics such as location, device type, and referrers.
+
+- **Key Components:**
+  - **API Service:**  
+    - Endpoints for creating and retrieving URL mappings.
+  - **Database:**  
+    - Stores the mapping between the short code and the long URL.
+  - **Cache:**  
+    - Uses in-memory caching (e.g., Redis) for frequently accessed URL mappings to reduce latency.
+  - **Load Balancer:**  
+    - Distributes incoming traffic across multiple service instances for high availability.
+
+- **Challenges & Considerations:**
+  - **Unique Code Generation:**  
+    - Ensure collision resistance and maintain a balance between code length and uniqueness.
+  - **Scalability:**  
+    - Partition the database if the number of URL mappings grows significantly.
+  - **Fault Tolerance:**  
+    - Implement retry logic and health checks to manage high-traffic redirection seamlessly.
+
+---
 
 ### 12. **Distributed Systems**
 - **Leader Election**: Select a leader in a cluster (e.g., Raft, Paxos).
