@@ -490,6 +490,32 @@
 - **Dashboards**: Real-time system status visualization (e.g., Grafana).
 - **Alerts**: Trigger based on thresholds or anomalies.
 
+- #### Tracing
+- **Purpose:**  
+  Provides a detailed view of a request’s journey across multiple services.
+- **Tools:**  
+  Utilize OpenTelemetry, Jaeger, or Zipkin to gather trace data.
+- **Benefits:**  
+  Helps diagnose latency issues and pinpoint failures in complex, distributed systems.
+
+#### Dashboards
+- **Function:**  
+  Visualize system metrics in real time, such as response times, error rates, and throughput.
+- **Tools:**  
+  Use Grafana, Kibana, or Datadog to create customizable dashboards.
+- **Usage:**  
+  Offers operational teams a quick overview of system health and performance.
+
+#### Alerts
+- **Mechanism:**  
+  Set thresholds for key metrics and trigger notifications when those thresholds are breached.
+- **Implementation:**  
+  Leverage alerting systems that integrate with communication platforms (e.g., PagerDuty, Slack).
+- **Benefits:**  
+  Enables rapid response to issues, minimizing downtime and performance degradation.
+
+---
+
 ### 15. **Content Distribution**
 - **Edge Servers**: Reduce latency by hosting content near users.
 - **Geo-Replication**: Store content in multiple global locations.
