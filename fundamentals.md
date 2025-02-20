@@ -420,6 +420,40 @@
 - **Quorum**: Majority voting for consistency in distributed systems.
 - **Data Partitioning Strategies**: Range-based, hash-based, or geography-based.
 
+#### Leader Election
+- **Purpose:**  
+  In distributed systems, leader election determines a single node that coordinates tasks or manages state changes.
+- **Algorithms:**  
+  Protocols like Raft and Paxos help nodes agree on the leader in a fault-tolerant manner.
+- **Use Cases:**  
+  Essential in distributed databases and microservices for ensuring coordinated operations.
+
+#### Consensus Algorithms
+- **Definition:**  
+  Mechanisms that ensure all nodes in a distributed system agree on a common state or decision.
+- **Examples:**  
+  Paxos, Raft, and ZooKeeper’s Zab algorithm.
+- **Benefits:**  
+  Provide consistency and reliability, even in the presence of network partitions or node failures.
+
+#### Quorum
+- **Concept:**  
+  A majority of nodes must agree on a transaction or data change, ensuring that decisions remain reliable despite failures.
+- **Implementation:**  
+  Used in replicated databases and distributed caches to maintain data integrity.
+- **Trade-offs:**  
+  Can introduce latency due to the need for multiple nodes to respond before confirmation.
+
+#### Data Partitioning Strategies
+- **Range-Based Partitioning:**  
+  Data is split based on value ranges (e.g., alphabetical ranges).
+- **Hash-Based Partitioning:**  
+  A hash function assigns data to nodes evenly, helping balance the load.
+- **Geographical Partitioning:**  
+  Data is partitioned based on the user’s location to reduce latency.
+
+---
+
 ### 13. **Fault Tolerance**
 - **Redundant Components**: Avoid single points of failure.
 - **Retry Mechanisms**: Graceful handling of temporary failures.
