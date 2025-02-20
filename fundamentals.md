@@ -520,6 +520,30 @@
 - **Edge Servers**: Reduce latency by hosting content near users.
 - **Geo-Replication**: Store content in multiple global locations.
 
+- #### Edge Servers
+- **Purpose:**  
+  Serve content from servers located close to end users, reducing latency.
+- **Benefits:**  
+  Improves load times and reduces the strain on central servers.
+- **Examples:**  
+  CDNs like Cloudflare and Akamai use edge servers to cache and deliver static content.
+
+#### Geo-Replication
+- **Definition:**  
+  Data is replicated across multiple geographic regions to improve availability and reduce access time.
+- **Benefits:**  
+  Enhances disaster recovery capabilities and optimizes user experience globally.
+- **Implementation:**  
+  Use cloud providers that offer multi-region support to distribute data.
+
+#### Load Distribution
+- **Mechanism:**  
+  Distribute incoming requests across various servers or data centers using load balancing.
+- **Techniques:**  
+  Implement global load balancers or DNS-based routing to direct traffic to the nearest or healthiest server.
+- **Benefits:**  
+  Prevents overloading a single server, ensuring both scalability and reliability.
+
 ### 16. **Concurrency and Parallelism**
 - **Concurrency Models**: Threads, async programming, event loops.
 - **Locks and Mutexes**: Prevent race conditions.
