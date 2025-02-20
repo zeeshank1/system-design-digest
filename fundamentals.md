@@ -458,6 +458,32 @@
 - **Redundant Components**: Avoid single points of failure.
 - **Retry Mechanisms**: Graceful handling of temporary failures.
 - **Circuit Breakers**: Prevent cascading failures by halting problematic processes.
+- 
+#### Redundant Components
+- **Definition:**  
+  Duplicate critical system components (servers, databases, network paths) to eliminate single points of failure.
+- **Implementation:**  
+  Use clusters, multi-zone deployments, and redundant hardware.
+- **Benefits:**  
+  Maintains service availability even when individual components fail.
+
+#### Retry Mechanisms
+- **Purpose:**  
+  Automatically reattempt operations after transient failures.
+- **Techniques:**  
+  Implement exponential backoff strategies and idempotent operations.
+- **Considerations:**  
+  Ensure that retries do not overload the system and that they are used judiciously.
+
+#### Circuit Breakers
+- **Definition:**  
+  A design pattern that temporarily halts requests to a failing service, preventing cascading failures.
+- **Implementation:**  
+  Monitor error rates and open the circuit when thresholds are exceeded.
+- **Benefits:**  
+  Isolates problematic components, allowing the rest of the system to function normally.
+
+---
 
 ### 14. **System Observability**
 - **Tracing**: Distributed tracing with tools like OpenTelemetry, and Jaeger.
