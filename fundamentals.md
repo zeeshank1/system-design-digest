@@ -922,6 +922,7 @@
 - **On-Device AI Processing**: Perform ML inference on edge devices.
 - **Use Cases**: Autonomous vehicles, real-time fraud detection, industrial IoT.
 - **Frameworks**: TensorFlow Lite, ONNX Runtime, NVIDIA Jetson.
+- 
 
 ### 95. Confidential Computing
 - **Encrypted Data Processing**: Secure data while in use.
