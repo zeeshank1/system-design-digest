@@ -1170,7 +1170,7 @@
 - **Use Cases**: High-read systems, session management, product catalogs.
   
 ### 154. Hybrid Transactional/Analytical Processing (HTAP)
-- **Unified Workloads**: Handle both OLTP and OLAP operations in a single database.
+- **Unified Workloads**: Handle OLTP and OLAP operations in a single database.
 - **Real-Time Analytics**: Enable immediate insights on transactional data.
 - **Popular Solutions**: TiDB, Apache HBase with Spark, Google Spanner.
 
@@ -1230,7 +1230,7 @@
 - **Use Cases**: GDPR compliance, secure data sharing, research datasets.
 
 ### 166. Infrastructure Cost Monitoring & Optimization
-- **Cost Visibility**: Monitor resource usage and expenses in real-time.
+- **Cost Visibility**: Monitor resource usage and expenses in real time.
 - **Optimization Tools**: Use cloud cost management platforms (e.g., AWS Cost Explorer, CloudHealth).
 - **Best Practices**: Right-sizing resources, leveraging auto-scaling, utilizing reserved instances.
 
@@ -1258,7 +1258,6 @@
 - **Static Discovery**: Hard-coded service endpoints offer simplicity but limited flexibility.
 - **Dynamic Discovery**: Use registries (e.g., Eureka, Consul) to allow runtime service lookup.
 - **Use Cases**: Microservices architectures, containerized environments, cloud-native applications.
-- 
 
 ### 171. Integration Platform as a Service (iPaaS)
 - **Centralized Integration**: Unify disparate systems, both cloud-based and on-premises.
