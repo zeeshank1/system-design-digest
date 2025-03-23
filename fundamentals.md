@@ -42,7 +42,7 @@
 
 #### Horizontal Scaling
 - **Definition:**  
-  Adding more machines (nodes) to distribute the load.
+  More machines (nodes) are added to distribute the load.
   
 - **Benefits:**  
   Increases fault tolerance, enables high availability, and allows handling more requests.
