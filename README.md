@@ -1,5 +1,5 @@
 # system-design-digest
-- Collection of system design concepts, best practices, and interview prepration material
+- Collection of system design concepts, best practices, and interview prepration material.
 
 ## 1. Must Have :
 - Design a URL Shortener (like bit.ly)
