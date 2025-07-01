@@ -8,7 +8,7 @@
 
 - Design a Distributed Cache (like Redis)
 
-- Design a Load Balancer
+- Design a Load Balancer (like nginx)
 
 - Design an E-commerce Website
 
