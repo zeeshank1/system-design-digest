@@ -2,17 +2,17 @@
 - Collection of system design concepts, best practices, and interview prepration material.
 
 ## 1. Must Have :
-- Design a URL Shortener (like bit.ly)
+- Design a URL Shortener (like bit.ly).
 
-- Design a Scalable Chat System (like WhatsApp or Slack)
+- Design a Scalable Chat System (like WhatsApp or Slack).
 
-- Design a Distributed Cache (like Redis)
+- Design a Distributed Cache (like Redis).
 
-- Design a Load Balancer (like nginx)
+- Design a Load Balancer (like nginx).
 
-- Design an E-commerce Website
+- Design an E-commerce Website.
 
-- Design a Search Engine (like Google)
+- Design a Search Engine (like Google).
 
 - Design a Social Media Feed (like Facebook, Twitter)
 
