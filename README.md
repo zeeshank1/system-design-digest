@@ -34,19 +34,19 @@
 
 - Design a Distributed Queue (like Kafka)
 
-- Design an Online Payment System (like PayPal or Stripe)
+- Design an Online Payment System (like PayPal or Stripe).
 
 - Design a Messaging Queue (like RabbitMQ)
 
-- Design a Real-time Analytics System
+- Design a Real-time Analytics System.
 
-- Design a Web Crawler
+- Design a Web Crawler.
 
 ## 3. Optional :
 
-- Design a Multiplayer Game System
+- Design a Multiplayer Game System.
 
-- Design a Machine Learning Model Serving System
+- Design a Machine Learning Model Serving System.
 
 - Design a Collaborative Document Editor (like Google Docs)
 
