@@ -1,1 +1,9 @@
-
+- Distributed caching is used to enhance system scalability and performance by storing frequently accessed data closer to the application.
+- It helps reduce database load and latency, especially in high-traffic environments.
+- Popular distributed cache solutions include Redis, Memcached, and Amazon ElastiCache.
+- Key challenges include cache consistency, eviction policies, and handling cache misses.
+- Strategies like cache partitioning and replication improve reliability and availability.
+- Cache invalidation is critical to ensure data freshness; common approaches are time-to-live (TTL) and write-through caches.
+- Monitoring cache hit/miss ratios helps optimize cache configuration and efficiency.
+- Security considerations such as access control and data encryption are important in distributed cache deployments.
+- Real-world use cases include session management, leaderboard storage, and API rate limiting.
