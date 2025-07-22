@@ -1,3 +1,4 @@
+## Distributed Cache: Advanced Concepts and Best Practices
 - Distributed caching is used to enhance system scalability and performance by storing frequently accessed data closer to the application.
 - It helps reduce database load and latency, especially in high-traffic environments.
 - Popular distributed cache solutions include Redis, Memcached, and Amazon ElastiCache.
